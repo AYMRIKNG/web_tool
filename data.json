@@ -1,38 +1,781 @@
-{
-    "section_title": "Design Guidelines", 
+
+
+
+  {
+    "sections": [
+      {
+        "title":"ressources typographiques",
+        "design_guidelines":[
+
+        ]
+      },
+      {
+        "title":"ressources typographiques",
+        "design_guidelines":[
+
+        ]
+      },
+      {
+        "title":"ressources de cloud",
+        "design_guidelines":[
+          {
+            "title": "Baidu Cloud",
+            "url": "http://pan.baidu.com/",
+            "description": "https://pan.baidu.com/.",
+            "image": "assets/images/logos/%e7%99%be%e5%ba%a6%e7%bd%91%e7%9b%98.jpg"
+          },
+          {
+            "title": "Aliyun Drive",
+            "url": "https://www.aliyundrive.com/",
+            "description": "Aliyun Drive, votre monde numérique.",
+            "image": "assets/images/logos/%e9%98%bf%e9%87%8c%e4%ba%91%e7%9b%98.png"
+          },
+          {
+            "title": "Tianyi Cloud",
+            "url": "https://cloud.189.cn/",
+            "description": "Cloud familial | Espace de stockage | Sauvegarde de fichiers | Partage de ressources.",
+            "image": "assets/images/logos/%e5%a4%a9%e7%bf%bc%e4%ba%91%e7%9b%98.jpg"
+          },
+          {
+            "title": "JianGuo Cloud",
+            "url": "#",
+            "description": "Site officiel de JianGuo Cloud.",
+            "image": "assets/images/logos/%e5%9d%9a%e6%9e%9c%e4%ba%91.png"
+          }
+        ]
+      },
+      {
+        "title":"ressources d'icônes",
+        "design_guidelines":[
+          {
+            "title": "Iconfinder",
+            "url": "https://www.iconfinder.com/",
+            "description": "2,100,000+ free and premium vector icons.",
+            "image": "assets/images/logos/Iconfinder.png"
+          },
+          {
+            "title": "iconfont",
+            "url": "http://www.iconfont.cn/",
+            "description": "阿里巴巴矢量图标库。",
+            "image": "assets/images/logos/iconfont.png"
+          },
+          {
+            "title": "iconmonstr",
+            "url": "https://iconmonstr.com/",
+            "description": "Free simple icons for your next project.",
+            "image": "assets/images/logos/iconmonstr.png"
+          },
+          {
+            "title": "Icon Archive",
+            "url": "http://www.iconarchive.com/",
+            "description": "Search 590,912 free icons.",
+            "image": "assets/images/logos/iconarchive.png"
+          },
+          {
+            "title": "FindIcons",
+            "url": "https://findicons.com/",
+            "description": "Search through 300,000 free icons.",
+            "image": "assets/images/logos/FindIcons.png"
+          },
+          {
+            "title": "IcoMoonApp",
+            "url": "https://icomoon.io/app/",
+            "description": "Icon Font, SVG, PDF & PNG Generator.",
+            "image": "assets/images/logos/IcoMoonApp.png"
+          },
+          {
+            "title": "easyicon",
+            "url": "http://www.easyicon.net/",
+            "description": "PNG、ICO、ICNS格式图标搜索、图标下载服务。",
+            "image": "assets/images/logos/easyicon.png"
+          },
+          {
+            "title": "flaticon",
+            "url": "https://www.flaticon.com/",
+            "description": "634,000+ Free vector icons in SVG, PSD, PNG, EPS format or as ICON FONT.",
+            "image": "assets/images/logos/flaticon.png"
+          },
+          {
+            "title": "UICloud",
+            "url": "http://ui-cloud.com/",
+            "description": "The largest user interface design database in the world.",
+            "image": "assets/images/logos/UICloud.png"
+          },   {
+            "title": "Material icons",
+            "url": "https://material.io/icons/",
+            "description": "Access over 900 material system icons, available in a variety of sizes and densities, and as a web font.",
+            "image": "assets/images/logos/Materialicons.png"
+          },
+          {
+            "title": "Font Awesome Icon",
+            "url": "https://fontawesome.com/icons/",
+            "description": "The complete set of 675 icons in Font Awesome.",
+            "image": "assets/images/logos/fontawesomeicon.png"
+          },
+          {
+            "title": "ion icons",
+            "url": "http://ionicons.com/",
+            "description": "The premium icon font for Ionic Framework.",
+            "image": "assets/images/logos/ionicons.png"
+          },
+          {
+            "title": "Simpleline Icons",
+            "url": "http://simplelineicons.com/",
+            "description": "Simple line Icons pack.",
+            "image": "assets/images/logos/simplelineicons.png"
+          }
+        ]
+      },
+      {
+        "title":"conception d'icônes",
+        "design_guidelines":[
+          {
+            "title": "90 设计",
+            "url": "http://90sheji.com/",
+            "description": "Bibliothèque de matériaux gratuits pour le design e-commerce (design Taobao).",
+            "image": "assets/images/logos/90sheji.png"
+          },
+          {
+            "title": "昵图网",
+            "url": "http://www.nipic.com/",
+            "description": "Plateforme de partage de ressources originales.",
+            "image": "assets/images/logos/nipic.png"
+          },
+          {
+            "title": "懒人图库",
+            "url": "http://www.lanrentuku.com/",
+            "description": "Spécialisé dans le téléchargement de ressources pour sites web.",
+            "image": "assets/images/logos/lanrentuku.png"
+          },
+          {
+            "title": "素材搜索",
+            "url": "http://so.ui001.com/",
+            "description": "Moteur de recherche agrégé pour les ressources de design.",
+            "image": "assets/images/logos/sousucai.png"
+          },
+          {
+            "title": "PS 饭团网",
+            "url": "http://psefan.com/",
+            "description": "Une bibliothèque de ressources de design unique ! Rendez vos designs distinctifs !",
+            "image": "assets/images/logos/psefan.png"
+          },
+          {
+            "title": "素材中国",
+            "url": "http://www.sccnn.com/",
+            "description": "Plateforme de partage gratuit de ressources.",
+            "image": "assets/images/logos/sccnn.png"
+          }
+        ]
+      },
+      {
+        "title":"design d'icônes",
+        "design_guidelines":[
+          {
+            "title": "Iconsfeed",
+            "url": "http://www.iconsfeed.com/",
+            "description": "iOS icons gallery.",
+            "image": "assets/images/logos/iconsfeed.png"
+          },
+          {
+            "title": "iOS Icon Gallery",
+            "url": "http://iosicongallery.com/",
+            "description": "Showcasing beautiful icon designs from the iOS App Store.",
+            "image": "assets/images/logos/iosicongallery.png"
+          },
+          {
+            "title": "World Vector Logo",
+            "url": "https://worldvectorlogo.com/",
+            "description": "Brand logos free to download.",
+            "image": "assets/images/logos/worldvectorlogo.png"
+          },
+          {
+            "title": "Instant Logo Search",
+            "url": "http://instantlogosearch.com/",
+            "description": "Search & download thousands of logos instantly.",
+            "image": "assets/images/logos/InstantLogoSearch.png"
+          },
+          {
+            "title": "freepik",
+            "url": "https://www.freepik.com/",
+            "description": "More than a million free vectors, PSD, photos and free icons.",
+            "image": "assets/images/logos/freepik.png"
+          },
+          {
+            "title": "wallhalla",
+            "url": "https://wallhalla.com/",
+            "description": "Find awesome high quality wallpapers for desktop and mobile in one place.",
+            "image": "assets/images/logos/wallhalla.png"
+          },
+          {
+            "title": "365PSD",
+            "url": "https://365psd.com/",
+            "description": "Free PSD & Graphics, Illustrations.",
+            "image": "assets/images/logos/365PSD.png"
+          },
+          {
+            "title": "Medialoot",
+            "url": "https://medialoot.com/",
+            "description": "Free & Premium Design Resources — Medialoot.",
+            "image": "assets/images/logos/Medialoot.png"
+          },
+          {
+            "title": "千图网",
+            "url": "http://www.58pic.com/",
+            "description": "Site web spécialisé dans le téléchargement gratuit de ressources de conception.",
+            "image": "assets/images/logos/qiantu.png"
+          },
+          {
+            "title": "千库网",
+            "url": "http://588ku.com/",
+            "description": "Téléchargement gratuit de ressources de fonds d'images PNG.",
+            "image": "assets/images/logos/qianku.png"
+          },
+          {
+            "title": "我图网",
+            "url": "http://www.ooopic.com/",
+            "description": "Wotu.com, fournit des ressources d'images et des modèles à télécharger, spécialisé dans les transactions d'œuvres de conception originales.",
+            "image": "assets/images/logos/wotu.png"
+          },
+          {
+            "title": "90 设计",
+            "url": "http://90sheji.com/",
+            "description": "Plateforme de ressources gratuites pour la conception de commerce électronique (design de Taobao).",
+            "image": "assets/images/logos/90sheji.png"
+          },
+          {
+            "title": "昵图网",
+            "url": "http://www.nipic.com/",
+            "description": "Plateforme de partage de ressources originales.",
+            "image": "assets/images/logos/nipic.png"
+          },
+          {
+            "title": "懒人图库",
+            "url": "http://www.lanrentuku.com/",
+            "description": "Lanrentuku est spécialisé dans la fourniture de ressources pour le téléchargement de sites web.",
+            "image": "assets/images/logos/lanrentuku.png"
+          },
+          {
+            "title": "素材搜索",
+            "url": "http://so.ui001.com/",
+            "description": "Plateforme de recherche et d'agrégation de ressources de conception.",
+            "image": "assets/images/logos/sousucai.png"
+          },
+          {
+            "title": "PS 饭团网",
+            "url": "http://psefan.com/",
+            "description": "Une bibliothèque de ressources de conception unique ! Faites en sorte que vos créations se distinguent des autres !",
+            "image": "assets/images/logos/psefan.png"
+          },
+          {
+            "title": "素材中国",
+            "url": "http://www.sccnn.com/",
+            "description": "Plateforme de partage de ressources gratuites.",
+            "image": "assets/images/logos/sccnn.png"
+          }
+        ]
+      },
+      {
+        "title":"ressources typographiques",
+        "design_guidelines":[
+          {
+              "title": "Google Fonts",
+              "url": "https://fonts.google.com/",
+              "description": "Rendre le web plus beau, rapide et ouvert grâce à une excellente typographie.",
+              "image": "assets/images/logos/googlefont.png"
+          },
+          {
+              "title": "Typekit",
+              "url": "https://typekit.com/",
+              "description": "Des polices de qualité provenant des meilleures fonderies du monde.",
+              "image": "assets/images/logos/typekit.png"
+          },
+          {
+              "title": "Fonderie de caractères Fangzheng",
+              "url": "http://www.foundertype.com/",
+              "description": "Site officiel de la fonderie de caractères Fangzheng.",
+              "image": "assets/images/logos/Fondertype.png"
+          },
+          {
+              "title": "ZiticQ",
+              "url": "http://ziticq.com/",
+              "description": "Premier site chinois de communication pour les designers de polices.",
+              "image": "assets/images/logos/ziticq.png"
+          },
+          {
+              "title": "Sicang Font",
+              "url": "http://sicangziti.com/",
+              "description": "Site de téléchargement gratuit de polices de qualité.",
+              "image": "assets/images/logos/sicangziti.png"
+          },
+          {
+              "title": "Fontsquirrel",
+              "url": "https://www.fontsquirrel.com/",
+              "description": "Polices gratuites pour les graphistes.",
+              "image": "assets/images/logos/fontsquirrel.png"
+          },
+          {
+              "title": "Urban Fonts",
+              "url": "https://www.urbanfonts.com/",
+              "description": "Téléchargez des polices gratuites et des dingbats gratuits.",
+              "image": "assets/images/logos/UrbanFonts.png"
+          },
+          {
+              "title": "Lost Type",
+              "url": "http://www.losttype.com/",
+              "description": "Lost Type est une fonderie typographique numérique collaborative.",
+              "image": "assets/images/logos/losttype.png"
+          },
+          {
+              "title": "FONTS2U",
+              "url": "https://fonts2u.com/",
+              "description": "Téléchargez des polices gratuites pour Windows et Macintosh.",
+              "image": "assets/images/logos/fonts2u.png"
+          },
+          {
+              "title": "Fontex",
+              "url": "http://www.fontex.org/",
+              "description": "Polices gratuites à télécharger + polices premium.",
+              "image": "assets/images/logos/fontex.png"
+          },
+          {
+              "title": "FontM",
+              "url": "http://fontm.com/",
+              "description": "Polices gratuites",
+              "image": "assets/images/logos/FontM.png"
+          },
+          {
+              "title": "MyFonts",
+              "url": "http://www.myfonts.com/",
+              "description": "Polices pour l'impression, les produits et les écrans.",
+              "image": "assets/images/logos/myfonts.png"
+          },
+          {
+            "title": "My Fonts",
+            "url": "http://www.myfonts.com/",
+            "description": "Polices pour l'impression, les produits et les écrans.",
+            "image": "assets/images/logos/MyFonts.png"
+        },
+        {
+            "title": "Da Font",
+            "url": "https://www.dafont.com/",
+            "description": "Archive de polices téléchargeables gratuitement.",
+            "image": "assets/images/logos/dafont.png"
+        },
+        {
+            "title": "OnlineWebFonts",
+            "url": "https://www.onlinewebfonts.com/",
+            "description": "Polices web gratuites pour Windows et Mac / Téléchargement gratuit de polices.",
+            "image": "assets/images/logos/OnlineWebFonts.png"
+        },
+        {
+            "title": "Abstract Fonts",
+            "url": "http://www.abstractfonts.com/",
+            "description": "Abstract Fonts (13 866 polices gratuites).",
+            "image": "assets/images/logos/abstractfonts.png"
+        }
+      ]      
+      },
+      {
+        "title":"ressources PowerPoint",
+        "design_guidelines":[
+          {
+              "title": "OfficePLUS",
+              "url": "http://www.officeplus.cn/Template/Home.shtml",
+              "description": "OfficePLUS, site officiel de modèles en ligne de Microsoft Office !",
+              "image": "assets/images/logos/officeplus.png"
+          },
+          {
+              "title": "YPPPT",
+              "url": "http://www.ypppt.com/",
+              "description": "Des modèles de haute qualité, ainsi que des graphiques PPT, des arrière-plans PPT et d'autres ressources.",
+              "image": "assets/images/logos/ypppt.png"
+          },
+          {
+              "title": "PPT+",
+              "url": "http://www.pptplus.cn/",
+              "description": "PPT+ permet de diffuser en direct, enregistrer et partager des contenus avec voix sur un plateforme de partage de PPT.",
+              "image": "assets/images/logos/pptplus.png"
+          },
+          {
+              "title": "PPTMind",
+              "url": "http://www.pptmind.com/",
+              "description": "Plateforme de partage de modèles de haute qualité pour PPT et Keynote, ainsi que pour les œuvres numériques.",
+              "image": "assets/images/logos/pptmind.png"
+          },
+          {
+              "title": "Tretars",
+              "url": "http://www.tretars.com/ppt-templates",
+              "description": "Les meilleurs mockups gratuits du Web.",
+              "image": "assets/images/logos/tretars.png"
+          },
+          {
+              "title": "5百丁",
+              "url": "http://ppt.500d.me/",
+              "description": "Plateforme de partage de modèles PPT leader en Chine.",
+              "image": "assets/images/logos/500d.png"
+          }
+      ]
+      
+      },
+      {
+        "title": "coloration en ligne",
+        "design_guidelines": [
+          {
+            "url": "http://khroma.co/generator/",
+            "image": "assets/images/logos/khroma.png",
+            "title": "khroma",
+            "description": "Khroma is the fastest way to discover, search, and save color combos you'll want to use."
+          },
+          {
+            "url": "https://uigradients.com/",
+            "image": "assets/images/logos/uigradients.png",
+            "title": "uigradients",
+            "description": "Beautiful colored gradients."
+          },
+          {
+            "url": "http://gradients.io/",
+            "image": "assets/images/logos/gradients.png",
+            "title": "gradients",
+            "description": "Curated gradients for designers and developers."
+          },
+          {
+            "url": "https://webkul.github.io/coolhue/",
+            "image": "assets/images/logos/Coolest.png",
+            "title": "Coolest",
+            "description": "Coolest handpicked Gradient Hues for your next super ⚡ amazing stuff."
+          },
+          {
+            "url": "https://webgradients.com/",
+            "image": "assets/images/logos/webgradients.png",
+            "title": "webgradients",
+            "description": "WebGradients is a free collection of 180 linear gradients that you can use as content backdrops in any part of your website."
+          },
+          {
+            "url": "https://www.grabient.com/",
+            "image": "assets/images/logos/grabient.png",
+            "title": "grabient",
+            "description": "2017 Grabient by unfold."
+          },
+          {
+            "url": "http://www.thedayscolor.com/",
+            "image": "assets/images/logos/thedayscolor.png",
+            "title": "thedayscolor",
+            "description": "The daily color digest"
+          },
+          {
+            "url": "http://flatuicolors.com/",
+            "image": "assets/images/logos/flatuicolors.png",
+            "title": "flatuicolors",
+            "description": "Copy Paste Color Pallette from Flat UI Theme."
+          },
+          [
+            {
+                "title": "coolors",
+                "url": "https://coolors.co/",
+                "description": "The super fast color schemes generator!",
+                "image": "assets/images/logos/coolors.png"
+            },
+            {
+                "title": "colorhunt",
+                "url": "http://www.colorhunt.co/",
+                "description": "Beautiful Color Palettes.",
+                "image": "assets/images/logos/colorhunt.png"
+            },
+            {
+                "title": "Adobe Color CC",
+                "url": "https://color.adobe.com/zh/create/color-wheel",
+                "description": "Create color schemes with the color wheel or browse thousands of color combinations from the Color community.",
+                "image": "assets/images/logos/AdobeColorCC.png"
+            },
+            {
+                "title": "flatuicolorpicker",
+                "url": "http://www.flatuicolorpicker.com/",
+                "description": "Best Flat Colors For UI Design.",
+                "image": "assets/images/logos/flatuicolorpicker.png"
+            },
+            {
+                "title": "trianglify",
+                "url": "http://qrohlf.com/trianglify-generator/",
+                "description": "Trianglify Generator.",
+                "image": "assets/images/logos/trianglify.png"
+            },
+            {
+                "title": "klart",
+                "url": "https://klart.co/colors/",
+                "description": "Beautiful colors and designs to your inbox every week.",
+                "image": "assets/images/logos/klart.png"
+            },
+            {
+                "title": "vanschneider",
+                "url": "http://www.vanschneider.com/colors",
+                "description": "Color Claim was created in 2012 by Tobias van Schneider with the goal to collect & combine unique colors for my future projects.",
+                "image": "assets/images/logos/vanschneider.png"
+            }
+        ]
+        
+        ]
+      },
+      {
+        "title": "Création graphique",
     "design_guidelines": [
       {
-        "title": "Designooooo Guidelines",
-        "url": "http://designguidelines.co/",
-        "description": "Design Guidelines — The way products are built.",
-        "image": "assets/images/logos/designguidelines.png",
-        "alt": "Design Guidelines",
-        "tooltip": "Design Guidelines — The way products are built."
+        "title": "Photoshop",
+        "url": "https://www.adobe.com/cn/products/photoshop.html",
+        "description": "Photoshop n'a pas besoin d'explication.",
+        "image": "assets/images/logos/photoshop.png",
+        "alt": "Photoshop",
+        "tooltip": "Photoshop n'a pas besoin d'explication."
       },
       {
-        "title": "Awesome design systems",
-        "url": "https://github.com/alexpate/awesome-design-systems",
-        "description": "A collection of awesome design systems.",
-        "image": "assets/images/logos/awesome_design_systems.png",
-        "alt": "Awesome design systems",
-        "tooltip": "A collection of awesome design systems."
+        "title": "Affinity Designer",
+        "url": "https://affinity.serif.com/",
+        "description": "Logiciel de création professionnel.",
+        "image": "assets/images/logos/AffinityDesigner.png",
+        "alt": "Affinity Designer",
+        "tooltip": "Logiciel de création professionnel."
       },
       {
-        "title": "Material Design",
-        "url": "https://material.io/guidelines/",
-        "description": "Introduction - Material Design.",
-        "image": "assets/images/logos/Material_Design.png",
-        "alt": "Material Design",
-        "tooltip": "Introduction - Material Design."
+        "title": "Illustrator",
+        "url": "https://www.adobe.com/cn/products/illustrator/",
+        "description": "Graphismes vectoriels et illustrations.",
+        "image": "assets/images/logos/Illustrator.png",
+        "alt": "Illustrator",
+        "tooltip": "Graphismes vectoriels et illustrations."
       },
       {
-        "title": "Human Interface Guidelines",
-        "url": "https://developer.apple.com/ios/human-interface-guidelines",
-        "description": "Human Interface Guidelines iOS.",
-        "image": "assets/images/logos/human_interface_guidelines.png",
-        "alt": "Human Interface Guidelines",
-        "tooltip": "Human Interface Guidelines iOS."
+        "title": "InDesign",
+        "url": "http://www.adobe.com/cn/products/indesign.html",
+        "description": "Conception de pages, mise en page et publication.",
+        "image": "assets/images/logos/INDESIGN%20.png",
+        "alt": "InDesign",
+        "tooltip": "Conception de pages, mise en page et publication."
+      },
+      {
+        "title": "Cinema 4D",
+        "url": "https://www.maxon.net/en/products/cinema-4d/overview/",
+        "description": "Cinema 4D est le package parfait pour tous les artistes 3D qui veulent obtenir des résultats impressionnants rapidement et sans tracas.",
+        "image": "assets/images/logos/cinema4d.png",
+        "alt": "Cinema 4D",
+        "tooltip": "Cinema 4D est le package parfait pour tous les artistes 3D qui veulent obtenir des résultats impressionnants rapidement et sans tracas."
+      },
+      {
+        "title": "3ds Max",
+        "url": "https://www.autodesk.com/products/3ds-max/overview",
+        "description": "Logiciel de modélisation 3D, d'animation et de rendu.",
+        "image": "assets/images/logos/3dsmax.png",
+        "alt": "3ds Max",
+        "tooltip": "Logiciel de modélisation 3D, d'animation et de rendu."
+      },
+      {
+        "title": "Blender",
+        "url": "https://www.blender.org/",
+        "description": "Blender est une suite de création 3D gratuite et open source.",
+        "image": "assets/images/logos/blender.png",
+        "alt": "Blender",
+        "tooltip": "Blender est une suite de création 3D gratuite et open source."
+      },
+      {
+        "url": "https://www.invisionapp.com/",
+        "image": "assets/images/logos/invisionapp.png",
+        "title": "invisionapp",
+        "description": "Powerful design prototyping tools"
+      },
+      {
+        "url": "https://marvelapp.com/",
+        "image": "assets/images/logos/marvelapp.png",
+        "title": "marvelapp",
+        "description": "Simple design, prototyping and collaboration"
+      },
+      {
+        "url": "https://creative.adobe.com/zh-cn/products/download/muse",
+        "image": "assets/images/logos/MuseCC.png",
+        "title": "Muse CC",
+        "description": "无需利用编码即可进行网站设计。"
+      },
+      {
+        "url": "https://www.figma.com/",
+        "image": "assets/images/logos/figma.png",
+        "title": "figma",
+        "description": "Design, prototype, and gather feedback all in one place with Figma."
       }
+    ]
+       },
+      {
+        "title": "Online Tools",
+        "design_guidelines": [
+          {
+            "title": "tinypng",
+            "url": "https://tinypng.com/",
+            "description": "Optimize your images with a perfect balance in quality and file size.",
+            "image": "assets/images/logos/tinypng.png",
+            "alt": "tinypng",
+            "tooltip": "Optimize your images with a perfect balance in quality and file size."
+          },
+          {
+            "title": "goqr",
+            "url": "http://goqr.me/",
+            "description": "Create QR codes for free (Logo, T-Shirt, vCard, EPS).",
+            "image": "assets/images/logos/goqr.png",
+            "alt": "goqr",
+            "tooltip": "Create QR codes for free (Logo, T-Shirt, vCard, EPS)."
+          },
+          {
+            "title": "ezgif",
+            "url": "https://ezgif.com/",
+            "description": "Simple online GIF maker and toolset for basic animated GIF editing.",
+            "image": "assets/images/logos/ezgif.png",
+            "alt": "ezgif",
+            "tooltip": "Simple online GIF maker and toolset for basic animated GIF editing."
+          },
+          {
+            "title": "Android 9 patch",
+            "url": "http://inloop.github.io/shadow4android/",
+            "description": "Android 9-patch shadow generator fully customizable shadows.",
+            "image": "assets/images/logos/Android9patch.png",
+            "alt": "Android 9 patch",
+            "tooltip": "Android 9-patch shadow generator fully customizable shadows."
+          },
+          {
+            "title": "screen sizes",
+            "url": "http://screensiz.es/",
+            "description": "Viewport Sizes and Pixel Densities for Popular Devices.",
+            "image": "assets/images/logos/screensizes.png",
+            "alt": "screen sizes",
+            "tooltip": "Viewport Sizes and Pixel Densities for Popular Devices."
+          }
+        ]
+      },
+      {
+      "title": "Google Plugins",
+      "design_guidelines": [
+        {
+          "title": "wappalyzer",
+          "url": "https://www.wappalyzer.com/",
+          "description": "Identify technology on websites.",
+          "image": "assets/images/logos/wappalyzer.png",
+          "alt": "wappalyzer",
+          "tooltip": "Identify technology on websites."
+        },
+        {
+          "title": "Panda",
+          "url": "http://usepanda.com/",
+          "description": "A smart news reader built for productivity.",
+          "image": "assets/images/logos/usepanda.png",
+          "alt": "Panda",
+          "tooltip": "A smart news reader built for productivity."
+        },
+        {
+          "title": "sizzy",
+          "url": "https://sizzy.co/",
+          "description": "A tool for developing responsive websites crazy-fast.",
+          "image": "assets/images/logos/sizzy.png",
+          "alt": "sizzy",
+          "tooltip": "A tool for developing responsive websites crazy-fast."
+        },
+        {
+          "title": "csspeeper",
+          "url": "https://csspeeper.com/",
+          "description": "Smart CSS viewer tailored for Designers.",
+          "image": "assets/images/logos/csspeeper.png",
+          "alt": "csspeeper",
+          "tooltip": "Smart CSS viewer tailored for Designers."
+        },
+        {
+          "title": "insight",
+          "url": "http://insight.io/",
+          "description": "IDE-like code search and navigation, on the cloud.",
+          "image": "assets/images/logos/insight.png",
+          "alt": "insight",
+          "tooltip": "IDE-like code search and navigation, on the cloud."
+        },
+        {
+          "title": "mustsee",
+          "url": "http://mustsee.earth/",
+          "description": "Discover the world's most beautiful places at every opened tab.",
+          "image": "assets/images/logos/mustsee.png",
+          "alt": "mustsee",
+          "tooltip": "Discover the world's most beautiful places at every opened tab."
+        }
+      ]},
+      {
+        "id":"1",
+        "title":"Forum de blogs",
+        "design_guidelines": []
+       },
+      {
+        "id": "section1",
+        "title": "Design Guidelines",
+        "design_guidelines": [
+            {
+              "title": "Designooooo Guidelines",
+              "url": "http://designguidelines.co/",
+              "description": "Design Guidelines — The way products are built.",
+              "image": "assets/images/logos/designguidelines.png",
+              "alt": "Design Guidelines",
+              "tooltip": "Design Guidelines — The way products are built."
+            },
+            {
+              "title": "Awesome design systems",
+              "url": "https://github.com/alexpate/awesome-design-systems",
+              "description": "A collection of awesome design systems.",
+              "image": "assets/images/logos/awesome_design_systems.png",
+              "alt": "Awesome design systems",
+              "tooltip": "A collection of awesome design systems."
+            },
+            {
+              "title": "Material Design",
+              "url": "https://material.io/guidelines/",
+              "description": "Introduction - Material Design.",
+              "image": "assets/images/logos/Material_Design.png",
+              "alt": "Material Design",
+              "tooltip": "Introduction - Material Design."
+            },
+            {
+              "title": "Human Interface Guidelines",
+              "url": "https://developer.apple.com/ios/human-interface-guidelines",
+              "description": "Human Interface Guidelines iOS.",
+              "image": "assets/images/logos/human_interface_guidelines.png",
+              "alt": "Human Interface Guidelines",
+              "tooltip": "Human Interface Guidelines iOS."
+            }
+          ]
+      },
+      {
+        "id": "section2",
+        "title": "UI/UX Design Resources",
+        "design_guidelines": [
+          {
+            "title": "Material Design",
+            "url": "https://material.io/guidelines/",
+            "description": "Introduction - Material Design.",
+            "image": "assets/images/logos/Material_Design.png",
+            "alt": "Material Design",
+            "tooltip": "Introduction - Material Design."
+          },
+          {
+            "title": "Human Interface Guidelines",
+            "url": "https://developer.apple.com/ios/human-interface-guidelines",
+            "description": "Human Interface Guidelines iOS.",
+            "image": "assets/images/logos/human_interface_guidelines.png",
+            "alt": "Human Interface Guidelines",
+            "tooltip": "Human Interface Guidelines iOS."
+          }
+        ]
+      },
+      {
+        "id": "section3",
+        "title": "Tutoriels vidéo",
+        "design_guidelines": [
+          {
+            "title": "Mooc China",
+            "url": "https://www.imooc.com/",
+            "description": "La fabrique des rêves pour les programmeurs (avec des cours UI).",
+            "image": "assets/images/logos/imooc.png",
+            "alt": "Mooc China",
+            "tooltip": "La fabrique des rêves pour les programmeurs (avec des cours UI)."
+          }
+        ]
+       }
     ]
   }
   
