@@ -13,8 +13,8 @@
     <meta name="theme-color" content="#f9f9f9" />
     <title>Web Tool</title>
     <link rel="shortcut icon" href="assets/images/favicon.png" />
-    <meta name="keywords" content="在线工具网" />
-    <meta name="description" content="在线网址导航, 各类开发工具、绘图绘画工具、md5、在线ps、base64、房贷计算器等" />
+    <meta name="keywords" content="aymerick" />
+    <meta name="description" content="Bienvenue sur mon site ou je repértorie tous les outils ou site que j'utilise" />
 
     <link rel="stylesheet" id="block-library-css"
         href="assets/css/block-library.min-5.6.2.css" type="text/css" media="all" />
@@ -76,7 +76,7 @@
 
 
                                 <li class="sidebar-item">
-                                    <a href="#3e90c5117dc0fe9d71410e448d766e52" class="smooth">
+                                    <a href="#current" class="smooth">
                                         <i class="far fa-star fa-lg icon-fw icon-lg mr-2"></i>
                                         <span>Outils courants</span>
                                     </a>
@@ -89,9 +89,9 @@
                                         <i class="iconfont icon-arrow-r-m sidebar-more text-sm"></i>
                                     </a>
                                     <ul>
-                                        <li><a href="#89a839e0a347c0be73793d01e52c31ad" class="smooth"><span>Bioinformatique</span></a></li>
-                                        <li><a href="#acd617ea241c9daf2f251963bc03c6e3" class="smooth"><span>Serveur Cloud</span></a></li>
-                                        <li><a href="#e0aade1cd567f730e498e248bbd6acdf" class="smooth"><span>Bureau et études</span></a></li>
+                                        <li><a href="#bio" class="smooth"><span>Bioinformatique</span></a></li>
+                                        <li><a href="#scloud" class="smooth"><span>Serveur Cloud</span></a></li>
+                                        <li><a href="#study" class="smooth"><span>Bureau et études</span></a></li>
                                     </ul>
                                 </li>
                                 
@@ -351,10 +351,10 @@
                         </li>
                         <li>
                             <input hidden="" type="radio" name="type"
-                                   id="type-bing"
-                                   value="https://cn.bing.com/search?q="
-                                   data-placeholder="Rechercher sur Bing">
-                            <label for="type-bing"><span class="text-muted">Bing</span></label>
+                                   id="type-Ecosia"
+                                   value="https://www.ecosia.org/search?q="
+                                   data-placeholder="Rechercher sur Ecosia">
+                            <label for="type-Ecosia"><span class="text-muted">Ecosia</span></label>
                         </li>
                         <li>
                             <input hidden="" type="radio" name="type"
@@ -410,10 +410,10 @@
                         </li>
                         <li>
                             <input hidden="" type="radio" name="type"
-                                   id="type-bing1"
-                                   value="https://cn.bing.com/search?q="
-                                   data-placeholder="Rechercher sur Bing">
-                            <label for="type-bing1"><span class="text-muted">Bing</span></label>
+                                   id="type-Ecosia1"
+                                   value="https://www.ecosia.org/search?q="
+                                   data-placeholder="Rechercher sur Ecosia">
+                            <label for="type-Ecosia1"><span class="text-muted">Ecosia</span></label>
                         </li>
                         <li>
                             <input hidden="" type="radio" name="type"
@@ -588,12 +588,19 @@
             </div>
             <div class="card search-smart-tips search-hot-text">
                 <ul id="word" style="display: none"></ul>
+
+               
             </div>
+         
         </div>
+        
     </div>
-
+   
 </div>
-
+<div style="display: flex">
+    <h4 class="activee" style="margin: 0 2rem 0 3.2rem" onclick="changeCountry('france')">France</h4>
+    <h4 onclick="changeCountry('chine')">Chine</h4>
+</div>
 
 <div id="content" class="content-site customize-site">
 
@@ -650,33 +657,48 @@
 </div>
 
 <script>
-    // Fonction pour charger et afficher les données depuis le fichier JSON
-    fetch('./data.json')
+    function changeCountry(country) {
+    // Supprimer la classe 'activee' de l'élément actuel
+    document.querySelector('.activee').classList.remove('activee');
+    
+    // Ajouter la classe 'activee' au nouvel élément cliqué
+    if (country === 'france') {
+        document.querySelector('h4:nth-child(1)').classList.add('activee');
+    } else if (country === 'chine') {
+        document.querySelector('h4:nth-child(2)').classList.add('activee');
+    }
+    
+    // Déterminer l'URL du fichier JSON en fonction du pays
+    const jsonFile = (country === 'france') ? './data.json' : '/datacn.json';
+    
+    // Effectuer un fetch pour récupérer les données
+    fetch(jsonFile)
       .then(response => response.json())
       .then(data => {
         const content = document.getElementById('con');  // Conteneur principal des sections
+        content.innerHTML = ''; // Réinitialiser le contenu avant de le remplir avec les nouvelles données
         
-        // Itération sur chaque section dans le fichier JSON
+        // Itérer sur chaque section dans le fichier JSON
         data.sections.forEach(section => {
             // Créer une section avec un titre
             const sectionContainer = document.createElement('div');
             sectionContainer.classList.add('section-container');
-
+            
             // Ajouter le titre de la section
             const sectionTitle = document.createElement('h4');
             sectionTitle.classList.add('text-gray', 'text-lg', 'mb-4');
             sectionTitle.innerHTML = `
-                <i class="site-tag iconfont icon-tag icon-lg mr-1" id="${section.id}"></i>
+                <i class="fas fa-expand icon-lg mr-1" id="${section.id}"></i>
                 ${section.title}
             `;
             sectionContainer.appendChild(sectionTitle);
-
+            
             // Créer un conteneur pour les cartes
             const cardsContainer = document.createElement('div');
             cardsContainer.classList.add('row');
             
             // Ajouter les cartes de la section
-            section.design_guidelines.forEach(item => {
+            section.outils.forEach(item => {
                 const card = document.createElement('div');
                 card.classList.add('url-card', 'col-6', 'col-sm-6', 'col-md-4', 'col-xl-5a', 'col-xxl-6a');
                 
@@ -716,6 +738,11 @@
       .catch(error => {
         console.error('Error loading JSON data:', error);
       });
+}
+
+// Charger les données par défaut (France)
+changeCountry('france');
+
 </script>
 <div class="modal fade search-modal" id="search-modal">
     <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -742,8 +769,8 @@
                                 <li><input checked="checked" hidden="" type="radio" name="type2"
                                     id="m_type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="Baidu, recherchez et vous trouverez">
                                     <label for="m_type-baidu"><span class="text-muted">Baidu</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-bing" value="https://cn.bing.com/search?q=" data-placeholder="Recherche Microsoft Bing">
-                                    <label for="m_type-bing"><span class="text-muted">Bing</span></label></li>
+                                <li><input hidden="" type="radio" name="type2" id="m_type-Ecosia" value="https://www.ecosia.org//search?q=" data-placeholder="Recherche Ecosia">
+                                    <label for="m_type-Ecosia"><span class="text-muted">Ecosia</span></label></li>
                                 <li><input hidden="" type="radio" name="type2" id="m_type-google" value="https://www.google.com/search?q=" data-placeholder="Recherche Google">
                                     <label for="m_type-google"><span class="text-muted">Google</span></label></li>
                                 <li><input hidden="" type="radio" name="type2" id="m_type-anaconda" value="https://anaconda.org/search?q=" data-placeholder="Recherche de logiciels Anaconda">
@@ -768,9 +795,9 @@
                                 <li><input hidden="" type="radio" name="type2" id="m_type-sogo"
                                         value="https://www.sogou.com/web?query=" data-placeholder="Recherche Sogou"><label
                                         for="m_type-sogo"><span class="text-muted">Sogou</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-bing1"
-                                        value="https://cn.bing.com/search?q=" data-placeholder="Recherche Microsoft Bing"><label
-                                        for="m_type-bing1"><span class="text-muted">Bing</span></label></li>
+                                <li><input hidden="" type="radio" name="type2" id="m_type-Ecosia1"
+                                        value="https://www.ecosia.org/search?q=" data-placeholder="Recherche Microsoft Ecosia"><label
+                                        for="m_type-Ecosia1"><span class="text-muted">Ecosia</span></label></li>
                                 <li><input hidden="" type="radio" name="type2" id="m_type-sm"
                                         value="https://yz.m.sm.cn/s?q=" data-placeholder="Recherche UC mobile"><label
                                         for="m_type-sm"><span class="text-muted">Shenma</span></label></li>
@@ -944,51 +971,50 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
 
 <script>
 
-(function(){
-    if(document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") === ''){
-        if(new Date().getHours() > 22 || new Date().getHours() < 6){
+(function() {
+    
+    if(document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") === '') {
+        if(new Date().getHours() > 22 || new Date().getHours() < 6) {
             document.body.classList.remove('io-black-mode');
             document.body.classList.add('io-grey-mode');
             document.cookie = "night%3d1%3bpath%3d/index.html";
             console.log('夜间模式开启');
-        }else{
+        } else {
             document.body.classList.remove('night');
             document.cookie = "night%3d0%3bpath%3d/index.html";
             console.log('夜间模式关闭');
         }
-    }else{
+    } else {
         var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
-        if(night == '0'){
+        if(night == '0') {
             document.body.classList.remove('night');
-        }else if(night == '1'){
+        } else if(night == '1') {
             document.body.classList.add('night');
         }
     }
 })();
 
-$("#search-bg").css("background-image", "url(assets\/images\/bg-dna.jpg)");
-function switchNightMode(){
+function switchNightMode() {
     var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
-    if(night == '0'){
-	$("#search-bg").css("background-image", "url(assets\/images\/bg-dna.jpg)");
+    if(night == '0') {
         document.body.classList.remove('io-grey-mode');
         document.body.classList.add('io-black-mode');
-        document.cookie = "night%3d1%3bpath%3d/index.html"
-        console.log(' ');
-        $(".switch-dark-mode").attr("data-original-title","日间模式");
+        document.cookie = "night%3d1%3bpath%3d/index.html";
+        console.log(' ');  // Log vide (peut être supprimé)
+        $(".switch-dark-mode").attr("data-original-title", "日间模式");
         $(".mode-ico").removeClass("icon-night");
         $(".mode-ico").addClass("icon-light");
-    }else{
-	$("#search-bg").css("background-image", "url(assets\/images\/bg-dna.jpg)")
+    } else {
         document.body.classList.remove('io-black-mode');
         document.body.classList.add('io-grey-mode');
-        document.cookie = "night%3d0%3bpath%3d/index.html"
-        console.log(' ');
-        $(".switch-dark-mode").attr("data-original-title","夜间模式");
+        document.cookie = "night%3d0%3bpath%3d/index.html";
+        console.log(' ');  // Log vide (peut être supprimé)
+        $(".switch-dark-mode").attr("data-original-title", "夜间模式");
         $(".mode-ico").removeClass("icon-light");
         $(".mode-ico").addClass("icon-night");
     }
 }
+
 </script>
 </body>
 

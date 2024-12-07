@@ -180,51 +180,50 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
 
 <script>
 
-(function(){
-    if(document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") === ''){
-        if(new Date().getHours() > 22 || new Date().getHours() < 6){
+(function() {
+    // Vérifie si un cookie "night" existe, sinon définit le mode par défaut
+    if(document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") === '') {
+        if(new Date().getHours() > 22 || new Date().getHours() < 6) {
             document.body.classList.remove('io-black-mode');
             document.body.classList.add('io-grey-mode');
             document.cookie = "night%3d1%3bpath%3d/index.html";
             console.log('夜间模式开启');
-        }else{
+        } else {
             document.body.classList.remove('night');
             document.cookie = "night%3d0%3bpath%3d/index.html";
             console.log('夜间模式关闭');
         }
-    }else{
+    } else {
         var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
-        if(night == '0'){
+        if(night == '0') {
             document.body.classList.remove('night');
-        }else if(night == '1'){
+        } else if(night == '1') {
             document.body.classList.add('night');
         }
     }
 })();
 
-$("#search-bg").css("background-image", "url(assets\/images\/bg-dna.jpg)");
-function switchNightMode(){
+function switchNightMode() {
     var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
-    if(night == '0'){
-	$("#search-bg").css("background-image", "url(assets\/images\/bg-dna.jpg)");
+    if(night == '0') {
         document.body.classList.remove('io-grey-mode');
         document.body.classList.add('io-black-mode');
-        document.cookie = "night%3d1%3bpath%3d/index.html"
-        console.log(' ');
-        $(".switch-dark-mode").attr("data-original-title","日间模式");
+        document.cookie = "night%3d1%3bpath%3d/index.html";
+        console.log(' ');  // Log vide (peut être supprimé)
+        $(".switch-dark-mode").attr("data-original-title", "日间模式");
         $(".mode-ico").removeClass("icon-night");
         $(".mode-ico").addClass("icon-light");
-    }else{
-	$("#search-bg").css("background-image", "url(assets\/images\/bg-dna.jpg)")
+    } else {
         document.body.classList.remove('io-black-mode');
         document.body.classList.add('io-grey-mode');
-        document.cookie = "night%3d0%3bpath%3d/index.html"
-        console.log(' ');
-        $(".switch-dark-mode").attr("data-original-title","夜间模式");
+        document.cookie = "night%3d0%3bpath%3d/index.html";
+        console.log(' ');  // Log vide (peut être supprimé)
+        $(".switch-dark-mode").attr("data-original-title", "夜间模式");
         $(".mode-ico").removeClass("icon-light");
         $(".mode-ico").addClass("icon-night");
     }
 }
+
 </script>
 </body>
 
