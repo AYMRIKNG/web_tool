@@ -1,0 +1,38 @@
+{
+    "section_title": "Design Guidelines", 
+    "design_guidelines": [
+      {
+        "title": "Designooooo Guidelines",
+        "url": "http://designguidelines.co/",
+        "description": "Design Guidelines — The way products are built.",
+        "image": "assets/images/logos/designguidelines.png",
+        "alt": "Design Guidelines",
+        "tooltip": "Design Guidelines — The way products are built."
+      },
+      {
+        "title": "Awesome design systems",
+        "url": "https://github.com/alexpate/awesome-design-systems",
+        "description": "A collection of awesome design systems.",
+        "image": "assets/images/logos/awesome_design_systems.png",
+        "alt": "Awesome design systems",
+        "tooltip": "A collection of awesome design systems."
+      },
+      {
+        "title": "Material Design",
+        "url": "https://material.io/guidelines/",
+        "description": "Introduction - Material Design.",
+        "image": "assets/images/logos/Material_Design.png",
+        "alt": "Material Design",
+        "tooltip": "Introduction - Material Design."
+      },
+      {
+        "title": "Human Interface Guidelines",
+        "url": "https://developer.apple.com/ios/human-interface-guidelines",
+        "description": "Human Interface Guidelines iOS.",
+        "image": "assets/images/logos/human_interface_guidelines.png",
+        "alt": "Human Interface Guidelines",
+        "tooltip": "Human Interface Guidelines iOS."
+      }
+    ]
+  }
+  
