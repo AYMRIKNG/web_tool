@@ -147,6 +147,7 @@
         ]        
       },
       {
+        "id":"video",
         "title":"Musique et Vidéo",
         "outils":[
           {
@@ -200,7 +201,7 @@
         ]        
       },
       {
-        "id":"1",
+        "id":"imagevideo",
         "title":"Image et Vidéo",
         "outils": [
           {
@@ -246,7 +247,7 @@
         ]
        },
        {
-        "id": "design",
+        "id": "uiux",
         "title": "UI/UX Design Resources",
         "outils": [
             {
@@ -284,6 +285,7 @@
           ]
       },
       {
+        "id":"icone",
         "title":"Bibliothèque d'Icon & Logo",
         "outils":[
           {
@@ -449,6 +451,7 @@
         ]        
       },
       {
+        "id":"font",
         "title":"Bibliothèque de Police",
         "outils":[
           {
@@ -575,6 +578,7 @@
               
       },
       {
+        "id":"color",
         "title": "Palette de Couleur",
         "outils": [
           {
@@ -700,6 +704,7 @@
         ]        
       },
       {
+        "id":"3d",
         "title": "3d Design",
         "outils":[
           {
@@ -761,6 +766,7 @@
         ]
       },
       {
+        "id":"graph",
         "title": "Création graphique",
     "outils": [
       {
@@ -822,6 +828,7 @@
     ]    
        },
       {
+        "id":"online",
         "title": "Online Tools",
         "outils": [
           {
@@ -866,6 +873,16 @@
           }
         ]
       },  
+      {
+        "id":"blue",
+        "title": "Blue Team",
+        "outils":[]
+      },
+      {
+        "id":"red",
+        "title": "Red Team",
+        "outils":[]
+      },
       {
         "id":"scloud",
         "title":"Serveur cloud",
@@ -981,7 +998,7 @@
         }
       ]},
       {
-        "id":"1",
+        "id":"forum",
         "title":"Forum de blogs",
         "outils": []
        }
