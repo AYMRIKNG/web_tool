@@ -250,39 +250,48 @@
         "id": "uiux",
         "title": "UI/UX Design Resources",
         "outils": [
-            {
+          {
               "title": "AWWWARDS",
               "url": "https://www.awwwards.com/",
-              "description": "Awwwards",
+              "description": "Awwwards - Récompenses pour les meilleurs designs web",
               "image": "assets/images/logos/awward.png",
               "alt": "Awwwards",
-              "tooltip": "D"
-            },
-            {
+              "tooltip": "Awwwards : Récompenses pour les meilleurs designs web"
+          },
+          {
+              "title": "Dribbble",
+              "url": "https://dribbble.com/",
+              "description": "Dribbble - Plateforme de partage pour designers",
+              "image": "assets/images/logos/awward.png",
+              "alt": "Dribbble",
+              "tooltip": "Dribbble : Plateforme de partage pour designers"
+          },
+          {
               "title": "Awesome design systems",
               "url": "https://github.com/alexpate/awesome-design-systems",
-              "description": "A collection of awesome design systems.",
+              "description": "Une collection de systèmes de design incroyables.",
               "image": "assets/images/logos/ads.png",
               "alt": "Awesome design systems",
-              "tooltip": "A collection of awesome design systems."
-            },
-            {
+              "tooltip": "Une collection de systèmes de design inspirants et complets"
+          },
+          {
               "title": "Material Design",
               "url": "https://material.io/guidelines/",
-              "description": "Introduction - Material Design.",
+              "description": "Introduction au Material Design.",
               "image": "assets/images/logos/Material_Design.png",
-              "alt": "Material Design",
-              "tooltip": "Introduction - Material Design."
-            },
-            {
+              "alt": "Material Design ",
+              "tooltip": "Material Design : Le guide de conception de Google"
+          },
+          {
               "title": "Human Interface Guidelines",
               "url": "https://developer.apple.com/ios/human-interface-guidelines",
               "description": "Human Interface Guidelines iOS.",
               "image": "assets/images/logos/human_interface_guidelines.png",
-              "alt": "Human Interface Guidelines",
-              "tooltip": "Human Interface Guidelines iOS."
-            }
-          ]
+              "alt": "Human Interface Guidelines S",
+              "tooltip": "Human Interface Guidelines : Guide d'interface humaine pour iOS"
+          }
+      ]
+      
       },
       {
         "id":"icone",

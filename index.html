@@ -12,7 +12,7 @@
         content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="theme-color" content="#f9f9f9" />
     <title>Web Tool</title>
-    <link rel="shortcut icon" href="assets/images/favicon.png" />
+    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/120599499?v=4" />
     <meta name="keywords" content="aymerick" />
     <meta name="description" content="Bienvenue sur mon site ou je repértorie tous les outils ou site que j'utilise" />
 
@@ -61,9 +61,9 @@
                                 alt="dark">
                         </a>
                         <a href="#" class="logo-collapsed">
-                            <img src="assets/images/bt.png" height="40" class="logo-light"
+                            <img src="https://avatars.githubusercontent.com/u/120599499?v=4" height="40" class="logo-light"
                                 alt="light">
-                            <img src="assets/images/bt.png" height="40" class="logo-dark d-none"
+                            <img src="https://avatars.githubusercontent.com/u/120599499?v=4" height="40" class="logo-dark d-none"
                                 alt="dark">
                         </a>
                     </div>
@@ -200,9 +200,9 @@
                 <div class="container-fluid p-0">
 
                     <a href="#" class="navbar-brand d-md-none" title="light">
-                        <img src="assets/images/bt.png" class="logo-light"
+                        <img src="https://avatars.githubusercontent.com/u/120599499?v=4" class="logo-light"
                             alt="light">
-                        <img src="assets/images/bt.png" class="logo-dark d-none"
+                        <img src="https://avatars.githubusercontent.com/u/120599499?v=4" class="logo-dark d-none"
                             alt="light">
                     </a>
 
@@ -222,7 +222,7 @@
                         <ul class="navbar-nav site-menu" style="margin-right: 16px;">
 
                             <li>
-                                <a href="index.html">
+                                <a href="https://aymrikng.github.io/PNA/" target="_blank" >
                                     <i class="fa fa-home fa-lg mr-2"></i>
                                     <span>Accueil</span>
                                 </a>
@@ -481,24 +481,38 @@
                         </li>
                         <li>
                             <input hidden="" type="radio" name="type"
-                                   id="type-wechat"
-                                   value ="https://weixin.sogou.com/weixin?type=2&amp;query="
-                                   data-placeholder="WeChat">
-                            <label for="type-wechat"><span class="text-muted">WeChat</span></label>
+                                   id="type-stackoverflow"
+                                   value="https://stackoverflow.com/search?q="
+                                   data-placeholder="Stack Overflow">
+                            <label for="type-stackoverflow"><span class="text-muted">Stack Overflow</span></label>
                         </li>
                         <li>
                             <input hidden="" type="radio" name="type"
-                                   id="type-weibo"
-                                   value="https://s.weibo.com/weibo/"
-                                   data-placeholder="Weibo">
-                            <label for="type-weibo"><span class="text-muted">Weibo</span></label>
+                                   id="type-github"
+                                   value="https://github.com/search?q="
+                                   data-placeholder="GitHub">
+                            <label for="type-github"><span class="text-muted">GitHub</span></label>
                         </li>
                         <li>
                             <input hidden="" type="radio" name="type"
-                                   id="type-douban"
-                                   value="https://www.douban.com/search?q="
-                                   data-placeholder="Douban">
-                            <label for="type-douban"><span class="text-muted">Douban</span></label>
+                                   id="type-reddit"
+                                   value="https://www.reddit.com/r/programming/search?q="
+                                   data-placeholder="Reddit - Programming">
+                            <label for="type-reddit"><span class="text-muted">Reddit - Programming</span></label>
+                        </li>
+                        <li>
+                            <input hidden="" type="radio" name="type"
+                                   id="type-hackernews"
+                                   value="https://hn.algolia.com/?q="
+                                   data-placeholder="Hacker News">
+                            <label for="type-hackernews"><span class="text-muted">Hacker News</span></label>
+                        </li>
+                        <li>
+                            <input hidden="" type="radio" name="type"
+                                   id="type-devto"
+                                   value="https://dev.to/search?q="
+                                   data-placeholder="Dev.to">
+                            <label for="type-devto"><span class="text-muted">Dev.to</span></label>
                         </li>
                     </ul>
                 </div>
@@ -655,11 +669,7 @@
                     <i class="iconfont icon-to-up"></i>
                 </a>
 
-                <a href="javascript:" data-toggle="modal" data-target="#search-modal" class="btn rounded-circle m-1"
-                    rel="search" one-link-mark="yes">
-                    <i class="iconfont icon-search"></i>
-                </a>
-
+              
 
 		<a href="javascript:" onclick="window.location.href='javascript:switchNightMode()'" class="btn rounded-circle switch-dark-mode m-1" id="yejian"
                     data-toggle="tooltip" data-placement="left" title="日间模式">
@@ -765,157 +775,7 @@
 changeCountry('france');
 
 </script>
-<div class="modal fade search-modal" id="search-modal">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div id="search" class="s-search mx-auto my-4">
-                    <div id="search-list" class="hide-type-list">
-                        <!-- Liste des types de recherche -->
-                        <div class="s-type">
-                            <span></span>
-                            <div class="s-type-list">
-                                <label for="m_type-baidu" data-id="group-a">Commun</label> <!-- Catégorie : Recherche courante -->
-                                <label for="m_type-baidu1" data-id="group-b">Recherche</label> <!-- Catégorie : Recherche -->
-                                <label for="m_type-whois" data-id="group-c">Outils</label> <!-- Catégorie : Outils -->
-                                <label for="m_type-zhihu" data-id="group-d">Communauté</label> <!-- Catégorie : Communauté -->
-                                <label for="m_type-taobao1" data-id="group-e">Vie</label> <!-- Catégorie : Vie -->
-                                <label for="m_type-linkedin" data-id="group-f">Emploi</label> <!-- Catégorie : Emploi -->
-                            </div>
-                        </div>
-                        
-                        <!-- Groupe : Recherche courante -->
-                        <div class="search-group group-a"><span class="type-text text-muted">Commun</span>
-                            <ul class="search-type">
-                                <li><input checked="checked" hidden="" type="radio" name="type2"
-                                    id="m_type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="Baidu, recherchez et vous trouverez">
-                                    <label for="m_type-baidu"><span class="text-muted">Baidu</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-Ecosia" value="https://www.ecosia.org//search?q=" data-placeholder="Recherche Ecosia">
-                                    <label for="m_type-Ecosia"><span class="text-muted">Ecosia</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-google" value="https://www.google.com/search?q=" data-placeholder="Recherche Google">
-                                    <label for="m_type-google"><span class="text-muted">Google</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-anaconda" value="https://anaconda.org/search?q=" data-placeholder="Recherche de logiciels Anaconda">
-                                    <label for="m_type-anaconda"><span class="text-muted">Logiciels</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-pubmed" value="https://pubmed.ncbi.nlm.nih.gov/?term=" data-placeholder="Recherche PubMed (titres d'articles, mots-clés)">
-                                    <label for="m_type-pubmed"><span class="text-muted">Publications</span></label></li>
-                            </ul>
-                        </div>
-                        
-                        <!-- Groupe : Recherche -->
-                        <div class="search-group group-b"><span class="type-text text-muted">Recherche</span>
-                            <ul class="search-type">
-                                <li><input hidden="" type="radio" name="type2" id="m_type-baidu1"
-                                        value="https://www.baidu.com/s?wd=" data-placeholder="Baidu, recherchez et vous trouverez"><label
-                                        for="m_type-baidu1"><span class="text-muted">Baidu</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-google1"
-                                        value="https://www.google.com/search?q=" data-placeholder="Recherche Google"><label
-                                        for="m_type-google1"><span class="text-muted">Google</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-360"
-                                        value="https://www.so.com/s?q=" data-placeholder="360 Recherche"><label
-                                        for="m_type-360"><span class="text-muted">360</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-sogo"
-                                        value="https://www.sogou.com/web?query=" data-placeholder="Recherche Sogou"><label
-                                        for="m_type-sogo"><span class="text-muted">Sogou</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-Ecosia1"
-                                        value="https://www.ecosia.org/search?q=" data-placeholder="Recherche Microsoft Ecosia"><label
-                                        for="m_type-Ecosia1"><span class="text-muted">Ecosia</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-sm"
-                                        value="https://yz.m.sm.cn/s?q=" data-placeholder="Recherche UC mobile"><label
-                                        for="m_type-sm"><span class="text-muted">Shenma</span></label></li>
-                            </ul>
-                        </div>
-                        
-                        <!-- Groupe : Outils -->
-                        <div class="search-group group-c"><span class="type-text text-muted">Outils</span>
-                            <ul class="search-type">
-                                <li><input hidden="" type="radio" name="type2" id="m_type-br"
-                                        value="https://rank.chinaz.com/all/" data-placeholder="Entrez l'URL (sans https://)">
-                                    <label for="m_type-br"><span class="text-muted">Vérification de la popularité</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-links"
-                                        value="https://link.chinaz.com/" data-placeholder="Entrez l'URL (sans https://)">
-                                    <label for="m_type-links"><span class="text-muted">Vérification de liens</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-whois"
-                                        value="https://who.is/whois/" data-placeholder="Entrez l'URL (sans https://)">
-                                    <label for="m_type-whois"><span class="text-muted">Informations Whois</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-ping"
-                                        value="https://ping.chinaz.com/" data-placeholder="Entrez l'URL (sans https://)">
-                                    <label for="m_type-ping"><span class="text-muted">Test de Ping</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-404"
-                                        value="https://tool.chinaz.com/Links/?DAddress=" data-placeholder="Entrez l'URL (sans https://)">
-                                    <label for="m_type-404"><span class="text-muted">Vérification de liens morts</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-ciku"
-                                        value="https://www.ciku5.com/s?wd=" data-placeholder="Entrez le mot-clé">
-                                    <label for="m_type-ciku"><span class="text-muted">Exploration de mots-clés</span></label>
-                                </li>
-                            </ul>
-                        </div>
-                        
-                        <!-- Groupe : Communauté -->
-                        <div class="search-group group-d"><span class="type-text text-muted">Communauté</span>
-                            <ul class="search-type">
-                                <li><input hidden="" type="radio" name="type2" id="m_type-zhihu"
-                                        value="https://www.zhihu.com/search?type=content&q=" data-placeholder="Zhihu">
-                                    <label for="m_type-zhihu"><span class="text-muted">Zhihu</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-wechat"
-                                        value="https://weixin.sogou.com/weixin?type=2&query=" data-placeholder="WeChat">
-                                    <label for="m_type-wechat"><span class="text-muted">WeChat</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-weibo"
-                                        value="https://s.weibo.com/weibo/" data-placeholder="Weibo">
-                                    <label for="m_type-weibo"><span class="text-muted">Weibo</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-douban"
-                                        value="https://www.douban.com/search?q=" data-placeholder="Douban">
-                                    <label for="m_type-douban"><span class="text-muted">Douban</span></label></li>
-                            </ul>
-                        </div>
-                        
-                        <!-- Groupe : Vie -->
-                        <div class="search-group group-e"><span class="type-text text-muted">Vie</span>
-                            <ul class="search-type">
-                                <li><input hidden="" type="radio" name="type2" id="m_type-taobao1"
-                                        value="https://s.taobao.com/search?q=" data-placeholder="Taobao">
-                                    <label for="m_type-taobao1"><span class="text-muted">Taobao</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-jd"
-                                        value="https://search.jd.com/Search?keyword=" data-placeholder="JD.com">
-                                    <label for="m_type-jd"><span class="text-muted">JD</span></label></li>
-                            </ul>
-                        </div>
-                        
-                        <!-- Groupe : Emploi -->
-                        <div class="search-group group-f"><span class="type-text text-muted">Emploi</span>
-                            <ul class="search-type">
-                                <li><input hidden="" type="radio" name="type2" id="m_type-zhaopin"
-                                        value="https://www.zhaopin.com/jobs/searchresult/?kw=" data-placeholder="Zhaopin">
-                                    <label for="m_type-zhaopin"><span class="text-muted">Zhaopin</span></label></li>
-                                <li><input hidden="" type="radio" name="type2" id="m_type-51job"
-                                        value="https://search.51job.com/list/0,000000,0000,00,9,99,developer,2,1.html?lang=c&keyword="
-                                        data-placeholder="51Job">
-                                    <label for="m_type-51job"><span class="text-muted">51Job</span></label></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <!-- Formulaire de recherche -->
-                    <form action="https://www.google.com/search" method="get" target="_blank" class="super-search-fm">
-                        <input type="text" id="m_search-text" class="form-control smart-tips search-key" zhannei=""
-                                autocomplete="off" placeholder="Entrez un mot-clé pour rechercher" style="outline:0">
-                        <button type="submit"><i class="iconfont icon-search"></i></button>
-                    </form>
-        
-                    <!-- Suggestions de recherche intelligente (cachée par défaut) -->
-                    <div class="card search-smart-tips" style="display: none">
-                        <ul></ul>
-                    </div>
-                </div>
-            </div>
-        
-            <!-- Bouton pour fermer la modale -->
-            <div style="position: absolute;bottom: -40px;width: 100%;text-align: center;">
-                <a href="javascript:" data-dismiss="modal"><i class="iconfont icon-close-circle icon-2x" style="color: #fff;"></i></a>
-            </div>
-        </div>
-        
-    </div>
-</div>
+
 
 
 <script type='text/javascript' src='assets/js/jquery.ui.touch-punch.min-0.2.2.js' id='jqueryui-touch-js'></script>
