@@ -11,7 +11,7 @@
             "title": "GMail",
             "url": "https://workspace.google.com/intl/fr/gmail/",
             "description": "Messagerie ",
-            "image": "assets/images/logos/gmail.jpg",
+            "image": "https://workspace.google.com/favicon.ico",
             "alt": "GMail",
             "tooltip": "Messagerie "
           },
@@ -19,7 +19,7 @@
             "title": "GitHub",
             "url": "https://github.com/",
             "description": "Communauté open source GitHub.",
-            "image": "assets/images/logos/github.png",
+            "image": "https://github.com/favicon.ico",
             "alt": "GitHub",
             "tooltip": "Communauté open source GitHub."
           },
@@ -27,7 +27,7 @@
             "title": "ChatGTP",
             "url": "https://chatgpt.com/",
             "description": "IA",
-            "image": "assets/images/logos/chatgtp.png",
+            "image": "https://chatgpt.com/favicon.ico",
             "alt": "ChatGTP",
             "tooltip": "IA"
           },
@@ -114,6 +114,14 @@
           },
           {
             "title": "TryHackMe",
+            "url": "",
+            "description": "",
+            "image": "assets/images/logos/tryhackme.png",
+            "alt": "",
+            "tooltip": ""
+          },
+          {
+            "title": "Hack The Box",
             "url": "",
             "description": "",
             "image": "assets/images/logos/tryhackme.png",
@@ -885,12 +893,142 @@
       {
         "id":"blue",
         "title": "Blue Team",
-        "outils":[]
+        "outils":[
+          {
+            "title": "Kali Linux",
+            "url": "https://www.kali.org/",
+            "description": "",
+            "image": "https://cdn.brandfetch.io/idHWPRjZFg/w/400/h/400/theme/dark/icon.jpeg?c=1bx1736452754232id64Mup7acK2gH4vaM&t=1732422457068",
+            "alt": "",
+            "tooltip": ""
+          },
+          {
+            "title": "Security Onion",
+            "url": "https://securityonion.net/",
+            "description": "",
+            "image": "https://cdn.brandfetch.io/idGVojwgxv/w/400/h/400/theme/dark/icon.jpeg?c=1bx1736452946332id64Mup7acS2t-3MJw&t=1732039253337",
+            "alt": "",
+            "tooltip": ""
+          },
+          {
+            "title": "SysInternals",
+            "url": "https://sysinternals.com/",
+            "description": "",
+            "image": "assets/images/logos/tryhackme.png",
+            "alt": "",
+            "tooltip": ""
+          },
+          {
+            "title": "Cuckoo Sandbox",
+            "url": "https://cuckoosandbox.org/index.html",
+            "description": "",
+            "image": "assets/images/logos/tryhackme.png",
+            "alt": "",
+            "tooltip": ""
+          },
+          {
+            "title": "FFUF",
+            "url": "https://github.com/ffuf/ffuf",
+            "description": "",
+            "image": "",
+            "alt": "",
+            "tooltip": ""
+          },
+          {
+            "title": "Empire powershell",
+            "url": "https://github.com/BC-SECURITY/Empire-Cli",
+            "description": "",
+            "image": "",
+            "alt": "",
+            "tooltip": ""
+          },
+          {
+            "title": "Starkiller",
+            "url": "https://github.com/BC-SECURITY/Starkiller",
+            "description": "",
+            "image": "",
+            "alt": "",
+            "tooltip": ""
+          },
+          {
+            "title": "AirCrack-NG",
+            "url": "https://github.com/aircrack-ng/aircrack-ng",
+            "description": "",
+            "image": "",
+            "alt": "",
+            "tooltip": ""
+          },
+          {
+            "title": "Cuckoo Sandbox",
+            "url": "https://cuckoosandbox.org/index.html",
+            "description": "",
+            "image": "",
+            "alt": "",
+            "tooltip": ""
+          },
+          {
+            "title": "Cuckoo Sandbox",
+            "url": "https://cuckoosandbox.org/index.html",
+            "description": "",
+            "image": "",
+            "alt": "",
+            "tooltip": ""
+          }
+        ]
       },
       {
         "id":"red",
         "title": "Red Team",
-        "outils":[]
+        "outils":[
+          {
+            "title": "John the Ripper",
+            "url": "https://www.openwall.com/john/",
+            "description": "",
+            "image": "",
+            "alt": "",
+            "tooltip": ""
+          },
+          {
+            "title": "Ophcrack",
+            "url": "https://ophcrack.sourceforge.io/",
+            "description": "",
+            "image": "",
+            "alt": "",
+            "tooltip": ""
+          },
+          {
+            "title": "Shodan",
+            "url": "https://www.shodan.io/",
+            "description": "",
+            "image": "",
+            "alt": "",
+            "tooltip": ""
+          },
+          {
+            "title": "Recon-ng",
+            "url": "https://github.com/lanmaster53/recon-ng",
+            "description": "",
+            "image": "",
+            "alt": "",
+            "tooltip": ""
+          },
+          {
+            "title": "SSHCrack",
+            "url": "https://www.openwall.com/john/",
+            "description": "",
+            "image": "",
+            "alt": "",
+            "tooltip": ""
+          },
+          {
+            "title": "SSHCrack",
+            "url": "https://www.openwall.com/john/",
+            "description": "",
+            "image": "",
+            "alt": "",
+            "tooltip": ""
+          }
+        ]
       },
       {
         "id":"scloud",
